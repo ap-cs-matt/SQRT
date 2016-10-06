@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdca2561-a4bc-4277-b513-e828f9ef3533" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqrtFull.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqrtObfuscated.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SQRT.py" afterPath="$PROJECT_DIR$/sqrtShort.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqrtFull.py" afterPath="$PROJECT_DIR$/sqrtFull.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqrtObfuscated.py" afterPath="$PROJECT_DIR$/sqrtObfuscated.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqrtShort.py" afterPath="$PROJECT_DIR$/sqrtShort.py" />
     </list>
     <ignored path="SQRT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,28 +28,28 @@
       <file leaf-file-name="sqrtShort.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sqrtShort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="61" />
+            <state relative-caret-position="15">
+              <caret line="1" column="82" selection-start-line="1" selection-start-column="82" selection-end-line="1" selection-end-column="82" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sqrtFull.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sqrtFull.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sqrtFull.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+            <state relative-caret-position="45">
+              <caret line="3" column="192" selection-start-line="3" selection-start-column="192" selection-end-line="3" selection-end-column="192" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sqrtObfuscated.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sqrtObfuscated.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sqrtObfuscated.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+            <state relative-caret-position="15">
+              <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -72,8 +71,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/SQRT.py" />
-        <option value="$PROJECT_DIR$/sqrtObfuscated.py" />
         <option value="$PROJECT_DIR$/sqrtFull.py" />
+        <option value="$PROJECT_DIR$/sqrtShort.py" />
+        <option value="$PROJECT_DIR$/sqrtObfuscated.py" />
       </list>
     </option>
   </component>
@@ -107,8 +107,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -136,7 +136,7 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.sqrtObfuscated">
+  <component name="RunManager" selected="Python.sqrtFull">
     <configuration default="false" name="SQRT" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -329,9 +329,9 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.sqrtObfuscated" />
-        <item index="1" class="java.lang.String" itemvalue="Python.sqrtFull" />
-        <item index="2" class="java.lang.String" itemvalue="Python.SQRT" />
+        <item index="0" class="java.lang.String" itemvalue="Python.sqrtFull" />
+        <item index="1" class="java.lang.String" itemvalue="Python.SQRT" />
+        <item index="2" class="java.lang.String" itemvalue="Python.sqrtObfuscated" />
       </list>
     </recent_temporary>
   </component>
@@ -353,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1475791124267</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added readable methods">
+      <created>1475791771472</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1475791771472</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -392,7 +399,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="shortened" />
-    <option name="LAST_COMMIT_MESSAGE" value="shortened" />
+    <MESSAGE value="added readable methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="added readable methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -402,23 +410,15 @@
     <entry file="file://$PROJECT_DIR$/sqrtShort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sqrtShort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sqrtShort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqrtFull.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -431,10 +431,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sqrtShort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqrtShort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqrtShort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="82" selection-start-line="1" selection-start-column="82" selection-end-line="1" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sqrtFull.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+        <state relative-caret-position="45">
+          <caret line="3" column="192" selection-start-line="3" selection-start-column="192" selection-end-line="3" selection-end-column="192" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqrtObfuscated.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
           <folding />
         </state>
       </provider>
