@@ -4,8 +4,6 @@
     <list default="true" id="cdca2561-a4bc-4277-b513-e828f9ef3533" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqrtFull.py" afterPath="$PROJECT_DIR$/sqrtFull.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqrtObfuscated.py" afterPath="$PROJECT_DIR$/sqrtObfuscated.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqrtShort.py" afterPath="$PROJECT_DIR$/sqrtShort.py" />
     </list>
     <ignored path="SQRT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,17 +33,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sqrtFull.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sqrtFull.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sqrtFull.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="192" selection-start-line="3" selection-start-column="192" selection-end-line="3" selection-end-column="192" />
+            <state relative-caret-position="30">
+              <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sqrtObfuscated.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sqrtObfuscated.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sqrtObfuscated.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -71,9 +69,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/SQRT.py" />
-        <option value="$PROJECT_DIR$/sqrtFull.py" />
         <option value="$PROJECT_DIR$/sqrtShort.py" />
         <option value="$PROJECT_DIR$/sqrtObfuscated.py" />
+        <option value="$PROJECT_DIR$/sqrtFull.py" />
       </list>
     </option>
   </component>
@@ -360,19 +358,26 @@
       <option name="project" value="LOCAL" />
       <updated>1475791771472</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="removed guess limiter">
+      <created>1475792760875</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1475792760875</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24930556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27875647" sideWeight="0.23380727" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.76619273" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.76619273" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -400,7 +405,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="shortened" />
     <MESSAGE value="added readable methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="added readable methods" />
+    <MESSAGE value="removed guess limiter" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed guess limiter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -455,18 +461,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sqrtFull.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="192" selection-start-line="3" selection-start-column="192" selection-end-line="3" selection-end-column="192" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sqrtObfuscated.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqrtFull.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
           <folding />
         </state>
       </provider>
