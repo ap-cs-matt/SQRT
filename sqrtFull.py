@@ -1,9 +1,13 @@
 validInput = False
 while(not validInput):
     number = input("Enter Number")  # sets the initial guees and the number that you are finding the sqrt of to the input
+
     try:
         number = guess = float(number)
-        break
+        if(number < 0):
+            print("Error")
+        else:
+            break
     except:
         print("Error")
 
