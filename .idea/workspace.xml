@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cdca2561-a4bc-4277-b513-e828f9ef3533" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqrtShort.py" afterPath="$PROJECT_DIR$/sqrtShort.py" />
     </list>
     <ignored path="SQRT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,21 +22,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sqrtFull.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sqrtFull.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sqrtFull.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="56" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sqrtShort.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sqrtShort.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sqrtShort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="44" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+            <state relative-caret-position="15">
+              <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -70,8 +69,8 @@
       <list>
         <option value="$PROJECT_DIR$/SQRT.py" />
         <option value="$PROJECT_DIR$/sqrtObfuscated.py" />
-        <option value="$PROJECT_DIR$/sqrtFull.py" />
         <option value="$PROJECT_DIR$/sqrtShort.py" />
+        <option value="$PROJECT_DIR$/sqrtFull.py" />
       </list>
     </option>
   </component>
@@ -105,7 +104,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -127,6 +125,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -134,7 +133,7 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.SQRT">
+  <component name="RunManager" selected="Python.sqrtFull">
     <configuration default="false" name="SQRT" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -327,8 +326,8 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.SQRT" />
-        <item index="1" class="java.lang.String" itemvalue="Python.sqrtFull" />
+        <item index="0" class="java.lang.String" itemvalue="Python.sqrtFull" />
+        <item index="1" class="java.lang.String" itemvalue="Python.SQRT" />
         <item index="2" class="java.lang.String" itemvalue="Python.sqrtObfuscated" />
       </list>
     </recent_temporary>
@@ -407,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1475984988707</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="got short version to 5 lines">
+      <created>1475985584151</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1475985584151</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -454,13 +460,45 @@
     <MESSAGE value="rmeoved blank line" />
     <MESSAGE value="added - protection" />
     <MESSAGE value="shortened code" />
-    <option name="LAST_COMMIT_MESSAGE" value="shortened code" />
+    <MESSAGE value="got short version to 5 lines" />
+    <option name="LAST_COMMIT_MESSAGE" value="got short version to 5 lines" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sqrtShort.py</url>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sqrtFull.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqrtShort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqrtObfuscated.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sqrtFull.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -605,18 +643,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sqrtFull.py">
+    <entry file="file://$PROJECT_DIR$/sqrtShort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="56" />
+        <state relative-caret-position="15">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sqrtShort.py">
+    <entry file="file://$PROJECT_DIR$/sqrtFull.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="44" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
